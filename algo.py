@@ -50,10 +50,13 @@ def minNum (arr):
             return 2
     else:
         for i in range(arr_length):
+#            edit if the first index not equal 1
+            if arr[0] != 1:
+                return 1
             # when loop reach to last index
             # and there is no range between the index's will return arr[last_index] + 1 
             # Examole [1,2,3,4,5] should return 6
-            if i == arr_length - 1:
+            elif i == arr_length - 1:
                 return arr[i] + 1
             elif arr[i+1] - arr[i] != 1:
                 return arr[i] + 1
@@ -67,4 +70,5 @@ print("number = 1,2 output ",minNum(arr=[1,2]))
 print("number = 1,4 output ",minNum(arr=[1,4]))
 # test list     
 print("number = 1,10,20 output ",minNum(arr=[1,10,20]))
-print("number = 1,2,3,4,5 output ",minNum(arr=[1,2,3,4,5,6]))
+print("number = 1,2,3,4,5,6 output ",minNum(arr=[1,2,3,4,5,6]))
+print("number = 2,3,4,5,6 output ",minNum(arr=[2,3,4,5,6]))
