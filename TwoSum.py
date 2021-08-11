@@ -5,13 +5,14 @@
 # Output: [0,1]
 # Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 def twoSum(nums, target):
-    arr=[]
-    for i in range(len(nums)-1):
-        for j in range(i+1,len(nums)):
-            if nums[i] + nums[j] == target:
-                print(nums[i],'>>>>>>',nums[j])
-                arr.append(i)
-                arr.append(j)
+    dict_num = {}
+    arr = []
+    for i,num in enumerate(nums):
+        if target - num in dict_num:
+            arr.append(i)
+            arr.append(dict_num[target - num])
+
+        dict_num[num] = i
     return arr
 
 # ---------------------Test----------------------------
@@ -21,4 +22,4 @@ target =  9
 # -----------------------------------------------------
 nums = [3,2,4]
 target =  6
-print('[4,5] >>',twoSum(nums,target))
+print('[2,1] >>',twoSum(nums,target))
