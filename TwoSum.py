@@ -7,9 +7,9 @@
 def twoSum(nums, target):
     arr=[]
     for i in range(len(nums)-1):
-        for j in range(i,len(nums)):
+        for j in range(i+1,len(nums)):
             if nums[i] + nums[j] == target:
-                # print(i,'>>>>>>',j)
+                print(nums[i],'>>>>>>',nums[j])
                 arr.append(i)
                 arr.append(j)
     return arr
@@ -17,4 +17,8 @@ def twoSum(nums, target):
 # ---------------------Test----------------------------
 nums = [4,7,11,15,3,6]
 target =  9
+# print('[4,5] >>',twoSum(nums,target))
+# -----------------------------------------------------
+nums = [3,2,4]
+target =  6
 print('[4,5] >>',twoSum(nums,target))
