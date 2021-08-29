@@ -23,3 +23,11 @@ Example
 Input: array [5, 38, 33, 60, 56, 7] 
 Output: Prime number [5, 7]	
  ```
+### [Date Format](https://github.com/MohaZain/algorithms/blob/main/DateFormat.py)
+* Format date with type string with diffrent style 
+* [coderhub](https://coderhub.sa/challenge/c93a5e09-2578-42ec-95db-88d1e87d6459)
+```
+Example:
+Input: date = "2019/02/14"
+Output: "2019/02/14 | 2019-02-14 | 02/14/2019"
+```
