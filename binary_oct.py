@@ -1,3 +1,8 @@
+# Convert binary to octal 
+# Ref: https://coderhub.sa/challenge/5bd914c3-ab6d-49df-bf9b-5c01ef189974
+# Example:
+# Input: binary = "10011100"
+# Output: oct = "234"
 
 def binary_oct(bainry):
     decim = 0
@@ -21,17 +26,16 @@ def binary_oct(bainry):
       if  x <= 7:
         octi = octi + str(x)
         decim =  decim - oct_indx * x
-        print(x,oct_indx_zeros,oct_indx)
         oct_indx_zeros = oct_indx
         oct_indx = 1
       oct_indx = oct_indx * 8
     if x != 0 :
         while(oct_indx_zeros !=1 ):
             octi = octi + '0'
-            print(oct_indx_zeros)
             oct_indx_zeros = int(oct_indx_zeros / 8)
-    return octi
+    return 'Oct = '+octi
+
+# ---------------------Test----------------------------
 bainry = '10011100'
-# 25
-x = binary_oct(bainry)
-print(x)
+print(binary_oct(bainry))
+print("Oct = 234")
