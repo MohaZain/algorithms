@@ -44,3 +44,12 @@ Example:
 Input: binary = "10011100"
 Output: oct = "234"
 ```
+### [Odd Even Number](https://github.com/MohaZain/algorithms/blob/main/count_odd_even.py) 
+* Sum odd and even in given number
+<!-- * [coderhub](https://coderhub.sa/challenge/3e97adbc-137b-46c2-9ec4-2532cebacbdf) -->
+<!-- * Difficulty: ``Hard`` -->
+```
+Example:
+Input: binary = "20"
+Output: even = 110, odd = 100
+```
