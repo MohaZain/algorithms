@@ -53,3 +53,13 @@ Example:
 Input: binary = "20"
 Output: even = 110, odd = 100
 ```
+### [Odd Even Number](https://github.com/MohaZain/algorithms/blob/main/factorial.py) 
+* Factorial o! 3! = 1*2*3
+* [coderhub](https://coderhub.sa/challenge/c617fadc-c5de-4265-8bf5-f7cca98a4572)
+* Difficulty: ``Eazy``
+```
+Example:
+Input: number = 5
+5! = 1 * 2 * 3 * 4 * 5 = 120
+Output = 120
+```
