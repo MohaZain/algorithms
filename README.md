@@ -31,3 +31,11 @@ Example:
 Input: date = "2019/02/14"
 Output: "2019/02/14 | 2019-02-14 | 02/14/2019"
 ```
+### [Binary to Oct](https://github.com/MohaZain/algorithms/blob/main/binary_oct.py)
+* Convert binary to Octal 
+* [coderhub](https://coderhub.sa/challenge/5bd914c3-ab6d-49df-bf9b-5c01ef189974)
+```
+Example:
+Input: binary = "10011100"
+Output: oct = "234"
+```
