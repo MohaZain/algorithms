@@ -92,3 +92,12 @@ Example:
 Input: num1 = '4' num2 = '6'
 Output = '10'
 ```
+### [Octal to Binary](https://github.com/MohaZain/algorithms/blob/main/oct_binary.py) 
+* Convert from octal to binray
+* [coderhub](https://coderhub.sa/challenge/44be3e9f-8b91-495d-91f2-c514693ff190)
+* Difficulty: ``Hard``
+```
+Example:
+Input: octal = 123 
+Output binary = '1010011'
+```
