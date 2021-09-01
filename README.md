@@ -74,3 +74,12 @@ Input: num1 = 5 num2 = 8
 5 + (3) = 8
 Output = 3 * (-1)
 ```
+### [Saparate Words](https://github.com/MohaZain/algorithms/blob/main/saparateword.py) 
+* Separate words at a capital letter by placing a space and converting it to a lowercase letter
+* [coderhub](https://coderhub.sa/challenge/e35bb082-6cc1-4aa9-89f5-03077f5ab9f3)
+* Difficulty: ``Hard``
+```
+Example:
+Input: helloWorld!
+Output = hello world!
+```
