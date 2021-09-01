@@ -83,3 +83,12 @@ Example:
 Input: helloWorld!
 Output = hello world!
 ```
+### [Sum Two numbers in String](https://github.com/MohaZain/algorithms/blob/main/sum_num_string.py) 
+* Function receives two string values, if the two inputs contain numbers add the numbers and if one of the inputs contains characters, returns -1 
+* [coderhub](https://coderhub.sa/challenge/033163c2-91be-4f1b-b0c0-01aff0811448)
+* Difficulty: ``Hard``
+```
+Example:
+Input: num1 = '4' num2 = '6'
+Output = '10'
+```
