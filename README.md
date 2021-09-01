@@ -63,3 +63,14 @@ Input: number = 5
 5! = 1 * 2 * 3 * 4 * 5 = 120
 Output = 120
 ```
+### [Subtract](https://github.com/MohaZain/algorithms/blob/main/subtract.py) 
+* Subtract two number without using minus sign
+* [coderhub](https://coderhub.sa/challenge/049c4598-d2da-4bae-9024-addfac853799)
+* Difficulty: ``Hard``
+```
+Example:
+* if num1 less than num2 multiply -1
+Input: num1 = 5 num2 = 8
+5 + (3) = 8
+Output = 3 * (-1)
+```
