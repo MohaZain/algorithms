@@ -1,17 +1,19 @@
 # Convert time between 24 to 12  
 # Ref: https://coderhub.sa/challenge/627b881a-1624-4521-9f90-6f54b07e6faa
-# Example:
+# Example :
 # Input: time = 13:40 
-# Output binary = '1010011'
+# Output out = 1:40 pm
+# Input: time = 6:20 pm
+# Output out = 18:20
 def convert_time(time):
   if time[-2:len(time)] == 'am':
     if time[0:2] == '12':
       return '00'+time[2:5]
-    else : return time[0:-2]
+    else : return time[0:-3]
   elif time[-2:len(time)] == 'pm':
      ti = time.split(":")
      x = int(ti[0]) + 12  
-     return str(x)+':'+ti[1][:-2]
+     return str(x)+':'+ti[1][:-3]
   else:
      ti = time.split(":")
      if ti[0] >= '13':
