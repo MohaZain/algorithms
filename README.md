@@ -101,3 +101,12 @@ Example:
 Input: octal = 123 
 Output binary = '1010011'
 ```
+### [Matching Array check](https://github.com/MohaZain/algorithms/blob/main/matching_array.py) 
+* Matching array
+* [coderhub](https://coderhub.sa/challenge/5eaa3159-d969-41d5-8401-85dd7d59fbe2)
+* Difficulty: ``Eazy``
+```
+Example:
+Input: arr1 = ['w','s'] arr2=['s','w']
+Output = true
+```
