@@ -121,3 +121,13 @@ Input: color = [10, 20, 20, 10, 10, 30, 50, 10, 20] , num of pair (length) = 9
 Output = 3
 There is 2 pair of color 10 and one pair of color 20
 ```
+### [jumping on Clouds](https://github.com/MohaZain/algorithms/blob/main/jumpingOnClouds.py) 
+* The player can jump on any cumulus cloud having a number that is equal to the number of the current cloud plus 1 or 2. The player must avoid the thunderheads.
+ For each game, array of clouds numbered 0 if they are safe or 1 if they must be avoided.
+* [hackerrank](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+* Difficulty: ``Eazy``
+```
+Example:
+input = [0 0 0 0 1 0]
+output = 3
+```
